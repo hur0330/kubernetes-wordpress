@@ -24,7 +24,7 @@ spec:
           mountPath: /persistentvolumes
         env:
         - name: PROVISIONER_NAME # do not change
-          value: nfs-test # SAME AS PROVISIONER NAME VALUE IN STORAGECLASS
+          value: wordpress-nfs # SAME AS PROVISIONER NAME VALUE IN STORAGECLASS
         - name: NFS_SERVER # do not change
           value: 10.100.0.204 # Ip of the NFS SERVER
         - name: NFS_PATH # do not change
