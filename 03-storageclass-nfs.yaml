@@ -3,6 +3,6 @@ kind: StorageClass
 metadata:
   namespace: wordpress
   name: nfs-storageclass # IMPORTANT pvc needs to mention this name
-provisioner: nfs-test # name can be anything
+provisioner: wordpress-nfs # name can be anything
 parameters:
   archiveOnDelete: "false"
